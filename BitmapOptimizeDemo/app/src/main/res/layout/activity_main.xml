@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="getBitmapSize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取原图占内存大小"/>
+
+    <Button
+        android:onClick="getQualityBitmapSize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取质量压缩图占内存大小"/>
+
+    <Button
+        android:onClick="getSampleBitmapSize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取采样率压缩图占内存大小"/>
+
+    <Button
+        android:onClick="getSizeBitmapSize"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取尺寸压缩图占内存大小"/>
+
+</LinearLayout>
